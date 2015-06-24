@@ -17,19 +17,48 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
   </style>
   <template>
-    <div>Hello from <span>{{foo}}</span></div>
+
+    src: <span>{{src}}</span>
+    suff: <span>{{suffix}}</span>
+    <span id="content" />
   </template>
 </dom-module>
 <script>
 (function() {
+
+var me;
+
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          me.$.content.innerHTML = markdown.toHTML(xmlhttp.responseText);
+      }
+  }
+
+  var observe = function(v) {
+    if (this.src && this.suffix) {
+      var url = this.src + this.suffix + '.md';
+      me = this;
+      xmlhttp.open("GET", url, true);
+      xmlhttp.send();
+    }
+  };
+
   Polymer({
     is: 'my-markdown',
-
+    observe: observe,
     properties: {
-      foo: {
+      suffix: {
         type: String,
-        value: 'bar',
-        notify: true
+        value: 'src',
+        notify: true,
+        observer: 'observe'
+      },
+      src: {
+        type: String,
+        value: 'src',
+        notify: true,
+        observer: 'observe'
       }
     }
   });

@@ -110,8 +110,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             <section data-route="home">
               <paper-material elevation="1">
-                <my-greeting></my-greeting>
-
+                <my-markdown src="/scripts/methods/" suffix="Readme"></my-markdown>
                 <p class="paper-font-subhead">Part of this training:</p>
                 <my-methods-list></my-methods-list>
 
@@ -128,10 +127,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             <section data-route="method-info">
               <paper-material elevation="1">
-                <h2 class="paper-font-display2">
-                User:<span>{{params.name}}</span>
-                </h2>
-                <div>This is <span>{{params.name}}</span>'s section</div>
+                <my-markdown src="/scripts/methods/" suffix="{{params.name}}"></my-markdown>
               </paper-material>
             </section>
 
