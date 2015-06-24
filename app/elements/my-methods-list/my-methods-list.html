@@ -8,8 +8,6 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
 
-<link rel="import" href="../../bower_components/polymer/polymer.html">
-
 <dom-module id="my-methods-list">
   <style>
     :host {
@@ -17,21 +15,36 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     }
   </style>
   <template>
-    <div>Hello from <span>{{foo}}</span></div>
+    <ul>
+      <template is="dom-repeat" items="{{items}}">
+        <li><span class="paper-font-body1">{{item.name}}</span></li>
+      </template>
+    </ul>
   </template>
 </dom-module>
 <script>
-(function() {
-  Polymer({
-    is: 'my-methods-list',
-
-    properties: {
-      foo: {
-        type: String,
-        value: 'bar',
-        notify: true
+  (function () {
+    Polymer({
+      is: 'my-methods-list',
+      properties: {
+        items: {
+          type: Array,
+          notify: true,
+        }
+      },
+      ready: function() {
+        this.items = [
+          {name:'Component Tests', route: '/methods/component-tests'},
+          {name:'Specification by Example', route: '/methods/examples'},
+          {name:'Exploratory Testing', route: '/methods/exploratory-testing'},
+          {name:'Functional Tests', route: '/methods/functional-tests'},
+          {name:'Load Testing', route: '/methods/load-testing'},
+          {name:'Performance Testing', route: '/methods/performance-testing'},
+          {name:'Story Tests', route: '/methods/performance-testing'},
+          {name:'Unit Tests', route: '/methods/unit-tests'},
+          {name:'User Acceptance Testing', route: '/methods/user-acceptance-testing'}
+        ];
       }
-    }
-  });
-})();
+    });
+  })();
 </script>
