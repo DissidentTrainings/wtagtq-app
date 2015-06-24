@@ -15,7 +15,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Polymer Starter Kit" />
+  <meta name="generator" content="Walk the agile testing quadrants" />
   <title>Polymer Starter Kit</title>
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -83,6 +83,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <iron-icon icon="mail"></iron-icon>
                 <span>Twitter</span>
               </a>
+
+              <a data-route="world-cafe" href="/world-cafe">
+                <iron-icon icon="info"></iron-icon>
+                <span>World Cafe</span>
+              </a>
           </paper-menu>
       </div>
       <paper-header-panel main mode="waterfall-tall">
@@ -137,6 +142,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <my-twitter-hashtag></my-twitter-hashtag>
               </paper-material>
             </section>
+
+            <section data-route="world-cafe">
+              <paper-material elevation="1">
+                <my-markdown src="/scripts/methods/" suffix="world-cafe"></my-markdown>
+              </paper-material>
+            </section>
+
 
           </iron-pages>
         </div>

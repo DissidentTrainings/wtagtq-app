@@ -6,15 +6,15 @@ Specification by example (SBE) is a collaborative approach to defining requireme
 
 [Wikipedia](https://en.wikipedia.org/wiki/Specification_by_example)
 
-## Tasks
+## Task 1
 
 Cucumber and a specification written in **Gherkin** language are seen as part of the specification by example process. Why is a specification in the following form a good collaboration tool? What are the challenges of using this.
 
-## Tasks
+## Task 2
 
 Int the game "Super Mario World" the main character can touch several objects (enemies, power ups). Try to find a complete List of things he can touch and effects these things have on Mario. These 2 categories might not
 
-## Tasks
+## Task 3
 
 What are the differences between Specification by example, Behaviour-Driven development (BDD) and Acceptance Testing-Driven Development (ATDD)?
 

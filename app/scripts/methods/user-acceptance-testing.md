@@ -8,6 +8,17 @@ This testing should be undertaken by a subject-matter expert (SME), preferably t
 
 [Wikipedia](https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing)
 
+## Task 1
+
+List strategies to find good users for a test that worked for you. If you had no prior experience: Think about where Amazon could find Test users for it's site or the DPC for a new conference format (4 days - just workshops - in a tropical area).
+
+## Task 2
+
+When the initial product is shipped. How would you still do tests with end users for new features?
+
+## Task 3
+
+How to acquire test users in a Starbucks coffee shop? Find 5 helpful "rules" to get good test results.
 
 ## Links
 

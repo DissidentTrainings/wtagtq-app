@@ -7,7 +7,7 @@ The data being passed can be considered as "message packets" and the range or da
 
 [WP Quote](https://en.wikipedia.org/wiki/Software_testing#Component_interface_testing)
 
-## Tasks
+## Task 1
 
 Review the Audio Player of your mobile phone. Which components can you find and which messages do they send / on which messages do they react?
 * Draw a Graph / Use Post-Its to visualize
@@ -15,9 +15,9 @@ Review the Audio Player of your mobile phone. Which components can you find and 
 
 You have 15 Minutes,
 
-## Tasks
+## Task 2
 
-List a number of components in your own live systems. Rate the impact of bugs and problems in the last year in Euros that the component caused in damage.
+List a number of components in your own live systems. Rate the impact of bugs and problems in the last year in Euros that the component caused in damage. Discuss, let everyone participate.
 
 ## References
 

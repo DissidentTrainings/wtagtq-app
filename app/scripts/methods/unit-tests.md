@@ -4,11 +4,11 @@
 
 In computer programming, unit testing is a software testing method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures, are tested to determine whether they are fit for use.
 
-## Tasks
+## Task 1
 
 Note down 10 Unit-Test-Smells. Do your research on the interwebz. Use a flipchart to document the result
 
-## Tasks
+## Task 2
 
 Do TDD in a spreadsheet. 2 People pair, the rest comments.
 
@@ -16,7 +16,7 @@ Do TDD in a spreadsheet. 2 People pair, the rest comments.
 
 You have 15 Minutes.
 
-## Tasks
+## Task 3
 
 Collect **Pains** and **Gains** of Unit Testing on a flip chart. Make every **Pain** and **Gain** Clear to each Participant
 

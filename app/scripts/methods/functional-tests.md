@@ -8,14 +8,13 @@ Functional testing does not imply that you are testing a function (method) of yo
 
 [Wikipedia](https://en.wikipedia.org/wiki/Functional_testing)
 
-
-## Tasks
+## Task 1
 
 * Come up with 5-10 functional and 10 non-functional requirements for parts of Amazon.com that relate to shopping.
 
 Take 15 Minutes. Note down on a Flip chart.
 
-## Tasks
+## Task 2
 
 * Come up with 10 functional requirements and define how (and with which tool) they could be tested.
 

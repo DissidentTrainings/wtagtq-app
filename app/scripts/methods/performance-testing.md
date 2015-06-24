@@ -8,7 +8,7 @@ Performance testing, a subset of performance engineering, is a computer science 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Software_performance_testing)
 
-## Tasks
+## Task 1
 
 Define and dissect these 3 Terms and find a example of how you would stress test a "Google Analytics" style service.
 
@@ -16,7 +16,7 @@ Define and dissect these 3 Terms and find a example of how you would stress test
 * Load Testing
 * Stress Testing
 
-## Tasks
+## Task 2
 
 In what order are the steps of performance test execution executed?
 

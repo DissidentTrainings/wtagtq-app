@@ -10,13 +10,13 @@ While the software is being tested, the tester learns things that together with 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Exploratory_testing)
 
-## Tasks
+## Task 1
 
 1. Find out and define what exploratory testing is (make a 5 minute silent research phase. Not all that on a flip chart.
 2. Explore: **Try to find all the Testing methods in the room**
 3. Come back and get the results together. - What worked and what not.
 
-## Tasks
+## Task 2
 
 Execute the following test charter
 
