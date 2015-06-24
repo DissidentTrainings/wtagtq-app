@@ -74,14 +74,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <span>Home</span>
               </a>
 
-              <a data-route="users" href="/users">
+              <a data-route="methdos" href="/methods">
                 <iron-icon icon="info"></iron-icon>
-                <span>Users</span>
+                <span>Methods</span>
               </a>
 
-              <a data-route="contact" href="/contact">
+              <a data-route="twitter" href="/twitter">
                 <iron-icon icon="mail"></iron-icon>
-                <span>Contact</span>
+                <span>Twitter</span>
               </a>
           </paper-menu>
       </div>
@@ -117,15 +117,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             </section>
 
-            <section data-route="users">
+            <section data-route="methods">
               <paper-material elevation="1">
-                <h2 class="paper-font-display2">Users</h2>
+                <h2 class="paper-font-display2">Methods</h2>
+                <my-methods-list></my-methods-list>
                 <p>This is the users section</p>
                 <a href="/users/Rob">Rob</a>
               </paper-material>
             </section>
 
-            <section data-route="user-info">
+            <section data-route="method-info">
               <paper-material elevation="1">
                 <h2 class="paper-font-display2">
                 User:<span>{{params.name}}</span>
@@ -134,7 +135,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </paper-material>
             </section>
 
-            <section data-route="contact">
+            <section data-route="twitter">
               <paper-material elevation="1">
                 <h2 class="paper-font-display2">Contact</h2>
                 <p>This is the contact section</p>
