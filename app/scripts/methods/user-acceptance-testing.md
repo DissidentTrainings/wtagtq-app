@@ -23,3 +23,4 @@ How to acquire test users in a Starbucks coffee shop? Find 5 helpful "rules" to 
 ## Links
 
 * [UAT Training](https://www.develop.com/training-course/user-acceptance-testing-for-business-analysts)
+* [SO Discussion](http://ux.stackexchange.com/questions/29227/where-is-the-best-way-to-approach-hallway-usability-testing)
