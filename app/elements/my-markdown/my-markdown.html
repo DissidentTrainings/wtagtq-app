@@ -22,21 +22,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 </dom-module>
 <script>
 (function() {
-
+/* globals markdown: false */
 var me;
 
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
-      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
           me.$.content.innerHTML = markdown.toHTML(xmlhttp.responseText);
       }
-  }
+  };
 
-  var observe = function(v) {
+  var observe = function() {
     if (this.src && this.suffix) {
       var url = this.src + this.suffix + '.md';
       me = this;
-      xmlhttp.open("GET", url, true);
+      xmlhttp.open('GET', url, true);
       xmlhttp.send();
     }
   };
